@@ -3,7 +3,7 @@
 A baby version of the Ginfer (graph inference) library.
 
 This baby is designed with the sole purpose of delivering a gist.
-Its core weighs less than 100 lines of code, and still supports the basic concepts:
+Its [core](src/baby_ginfer/core.clj) weighs less than 100 lines of code, and still supports the basic concepts:
 - Declarative graph structure (aka graph blueprints)
 - Separation of execution context and logic
 - Agnostic to state/data-model, or even storage tech
@@ -15,11 +15,11 @@ Only 1:1 relations are supported, the attributes' mechanics are very limited, et
 
 See examples under [test/baby_ginfer](test/baby_ginfer):
 - Core mechanics: notifications/evaluations via inference/reference
-- BFF: inference via reference
-- Vicious cycle: a cyclic case
-- Pets life: order-agnostic consistency
-- Riddle: an elaborate, self-bootstrapping/self-solving riddle
-- Zero mem: use fs-connector in place of the default in-mem
+- [BFF](test/baby_ginfer/t_bff.clj): inference via reference
+- [Vicious cycle](test/baby_ginfer/t_vicious_cycle.clj): a cyclic case
+- [Pets life](test/baby_ginfer/t_pets_life.clj): order-agnostic consistency
+- [Riddle](test/baby_ginfer/t_riddle.clj): an elaborate, self-bootstrapping/self-solving riddle
+- [Zero mem](test/baby_ginfer/t_zero_mem.clj): use fs-connector in place of the default in-mem
 
 ## Usage
 
