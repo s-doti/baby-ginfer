@@ -1,5 +1,7 @@
 # baby-ginfer
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.github.s-doti/baby-ginfer.svg)](https://clojars.org/com.github.s-doti/baby-ginfer)
+
 A baby version of the Ginfer (graph inference) library.
 
 This baby is designed with the sole purpose of delivering a gist.
