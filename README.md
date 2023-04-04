@@ -13,7 +13,7 @@ It builds on the [baby-sepl](https://github.com/s-doti/baby-sepl) (algorithm exe
 Compared to its mature version, it is limited in scope;
 Only 1:1 relations are supported, the attributes' mechanics are very limited, etc.
 
-See examples under [test/baby_ginfer](../tree/main/test/baby_ginfer):
+See examples under [test/baby_ginfer](test/baby_ginfer):
 - Core mechanics: notifications/evaluations via inference/reference
 - BFF: inference via reference
 - Vicious cycle: a cyclic case
