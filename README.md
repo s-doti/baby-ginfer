@@ -9,11 +9,11 @@ Its core weighs less than 100 lines of code, and still supports the basic concep
 - Agnostic to state/data-model, or even storage tech
 - Notifications & evaluations along paths of interconnected data-points (nodes)
 
-It builds on the baby-sepl (algorithm execution) engine.
+It builds on the [baby-sepl](https://github.com/s-doti/baby-sepl) (algorithm execution) engine.
 Compared to its mature version, it is limited in scope;
 Only 1:1 relations are supported, the attributes' mechanics are very limited, etc.
 
-See examples under /test:
+See examples under [test/baby_ginfer](../tree/main/test/baby_ginfer):
 - Core mechanics: notifications/evaluations via inference/reference
 - BFF: inference via reference
 - Vicious cycle: a cyclic case
@@ -27,7 +27,7 @@ In the following example we:
 1. Declare a graph structure where 
 a node infers its own data based on its neighbor's. We then-
 2. Simulate an event to tie two nodes together, 
-and another to update some data point per one of the nodes. Now we-
+and another to update some data point per one of the nodes. Next we-
 3. Run graph inference, injecting the declared graph structure (aka blueprints)
 and the events. Finally, we-
 4. Observe the inferred data point outcome 
