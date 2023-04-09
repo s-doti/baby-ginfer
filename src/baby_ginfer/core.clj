@@ -46,8 +46,8 @@
    "mutate-flow" {:side-effect-action (fn mutate [state [node attribute value]]
                                         (mutate! state node attribute value))}
    "notify-flow" {:side-effect-action (fn get-listeners [state [node attribute]]
-                                        (let [listeners (get-in state [:blueprints attribute :listeners])]
-                                          (->> (resolve state node listeners #(do [%1 %2]))
+                                        (let [listeners-paths (get-in state [:blueprints attribute :listeners])]
+                                          (->> (resolve state node listeners-paths #(do [%1 %2]))
                                                (flatten)
                                                (filter some?)
                                                (partition-all 2))))

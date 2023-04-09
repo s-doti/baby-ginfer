@@ -45,6 +45,15 @@ and the events. Finally, we-
 ```
 * Note: the order of events does not matter, the outcome always remains the same
 
+Per the blueprints above, an in-memory collection of maps is created (see [here](test/baby_ginfer/t_raw.clj)). 
+These maps are visualized in the following:
+![Blueprints Visualized](resources/blueprints.png "Blueprints Visualized")
+* Note the red arrows do not need to be explicitly declared, but rather are automagically deduced by the library.
+
+A visualization of the concrete instances that are created in our data appears similar to the above, 
+but in fact is the scale of total nodes in our graph (while the blueprints visual is static):
+![Concrete Instances Visualized](resources/instances.png "Concrete Instances Visualized")
+
 ## License
 
 Copyright © 2023 FIXME
