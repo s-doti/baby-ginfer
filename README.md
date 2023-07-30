@@ -2,7 +2,7 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/com.github.s-doti/baby-ginfer.svg)](https://clojars.org/com.github.s-doti/baby-ginfer)
 
-A baby version of the Ginfer (graph inference) library.
+A baby version of the [Ginfer](https://github.com/s-doti/ginfer) (graph inference) library.
 
 This baby is designed with the sole purpose of delivering a gist.
 Its [core](src/baby_ginfer/core.clj) weighs less than 100 lines of code, and still supports the basic concepts:
@@ -56,7 +56,7 @@ but in fact is the scale of total nodes in our graph (while the blueprints visua
 
 ## License
 
-Copyright © 2023 FIXME
+Copyright © 2023 [@s-doti](https://github.com/s-doti)
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
